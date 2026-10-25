@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  var VERSAO = '1.0';
+  var VERSAO = '1.1';
   var C = self.CONFIG || {};
   var MALHA = self.MALHA || [];
   var CHAVE = 'app-expediente-v1';
@@ -14,7 +14,8 @@
     { n: 'Vertical Aérea', c: '#e87ba4', u: '' },
     { n: 'OAC', c: '#1baf7a', u: '' },
     { n: 'Drenagem Superficial', c: '#eda100', u: '' },
-    { n: 'EPS', c: '#008300', u: '' }
+    { n: 'EPS', c: '#008300', u: '' },
+    { n: 'Edificações', c: '#8a5a2b', u: '' }
   ];
   var ICO = {
     pin: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
