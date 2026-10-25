@@ -8,7 +8,14 @@ self.CONFIG = {
   // Avisos no celular (Firebase). Deixe null enquanto não configurar.
   // Depois troque null pelo bloco do Firebase, por exemplo:
   // firebase: { apiKey: '...', authDomain: '...', projectId: '...', messagingSenderId: '...', appId: '...', vapidKey: '...' },
-  firebase: null,
+  firebase: null,firebase: {
+    apiKey: 'AIzaSyBhZPtqo3Vv-G0Aw0ZCu3iXvkEvPSUbYhw',
+    authDomain: 'expediente-app-910d6.firebaseapp.com',
+    projectId: 'expediente-app-910d6',
+    messagingSenderId: '706736779408',
+    appId: '1:706736779408:web:e84ded7d72f3cb51c62815',
+    vapidKey: 'BGj3lwmEV72I6ueYX2V5QFHBWLRCKru9HiG6BYkLc_8WZ_SAZIIiZdsl7YX3H6QjZNkOT7qhoLHYQVE0rG805tE'
+  },
 
   // Equipes que aparecem na tela de entrada (o PIN de cada uma fica na planilha)
   equipes: [
