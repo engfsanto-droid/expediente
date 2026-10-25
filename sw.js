@@ -1,5 +1,5 @@
 /* Service worker: deixa o app abrir sem internet e recebe os lembretes. */
-var CACHE = 'expediente-v1.0';
+var CACHE = 'expediente-v1.1';
 var ARQUIVOS = ['./', 'index.html', 'app.js', 'malha.js', 'config.js', 'manifest.json', 'icone-192.png', 'icone-512.png'];
 
 self.addEventListener('install', function (e) {
