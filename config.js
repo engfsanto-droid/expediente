@@ -27,9 +27,10 @@ self.CONFIG = {
     { code: 'SV2', bloco: 'SP', conc: 'SPVias' },
     { code: 'VC1', bloco: 'Sul', conc: 'Via Costeira' },
     { code: 'VC2', bloco: 'Sul', conc: 'Via Costeira' },
+    { code: 'VC3', bloco: 'Sul', conc: 'Via Costeira' },
     { code: 'VS1', bloco: 'Sul', conc: 'Via Sul' },
     { code: 'VS2', bloco: 'Sul', conc: 'Via Sul' },
     { code: 'VS3', bloco: 'Sul', conc: 'Via Sul' },
     { code: 'VS4', bloco: 'Sul', conc: 'Via Sul' }
-  ]
-};
+     ]
+   };
